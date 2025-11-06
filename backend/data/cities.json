@@ -1,0 +1,64 @@
+{
+  "cities": [
+    {
+      "id": "nyc",
+      "name": "New York City",
+      "country": "USA",
+      "buildings": [
+        { "id": "empire-state", "name": "Empire State Building", "lat": 40.748817, "lng": -73.985428 },
+        { "id": "times-square", "name": "Times Square", "lat": 40.758896, "lng": -73.985130 },
+        { "id": "central-park", "name": "Central Park", "lat": 40.785091, "lng": -73.968285 },
+        { "id": "grand-central", "name": "Grand Central Terminal", "lat": 40.752726, "lng": -73.977229 },
+        { "id": "statue-liberty", "name": "Statue of Liberty", "lat": 40.689247, "lng": -74.044502 }
+      ]
+    },
+    {
+      "id": "tokyo",
+      "name": "Tokyo",
+      "country": "Japan",
+      "buildings": [
+        { "id": "tokyo-tower", "name": "Tokyo Tower", "lat": 35.658584, "lng": 139.745433 },
+        { "id": "shibuya", "name": "Shibuya Crossing", "lat": 35.661777, "lng": 139.704051 },
+        { "id": "senso-ji", "name": "Senso-ji Temple", "lat": 35.714764, "lng": 139.796635 },
+        { "id": "shinjuku", "name": "Shinjuku Station", "lat": 35.689487, "lng": 139.700551 },
+        { "id": "akihabara", "name": "Akihabara Electric Town", "lat": 35.698683, "lng": 139.773013 }
+      ]
+    },
+    {
+      "id": "paris",
+      "name": "Paris",
+      "country": "France",
+      "buildings": [
+        { "id": "eiffel-tower", "name": "Eiffel Tower", "lat": 48.858370, "lng": 2.294481 },
+        { "id": "louvre", "name": "Louvre Museum", "lat": 48.860611, "lng": 2.337644 },
+        { "id": "notre-dame", "name": "Notre-Dame Cathedral", "lat": 48.852968, "lng": 2.349902 },
+        { "id": "arc-triomphe", "name": "Arc de Triomphe", "lat": 48.873792, "lng": 2.295028 },
+        { "id": "sacre-coeur", "name": "Sacré-Cœur", "lat": 48.886705, "lng": 2.343046 }
+      ]
+    },
+    {
+      "id": "london",
+      "name": "London",
+      "country": "UK",
+      "buildings": [
+        { "id": "big-ben", "name": "Big Ben", "lat": 51.500729, "lng": -0.124625 },
+        { "id": "tower-bridge", "name": "Tower Bridge", "lat": 51.505554, "lng": -0.075278 },
+        { "id": "buckingham", "name": "Buckingham Palace", "lat": 51.501476, "lng": -0.140634 },
+        { "id": "british-museum", "name": "British Museum", "lat": 51.519413, "lng": -0.126957 },
+        { "id": "london-eye", "name": "London Eye", "lat": 51.503324, "lng": -0.119543 }
+      ]
+    },
+    {
+      "id": "barcelona",
+      "name": "Barcelona",
+      "country": "Spain",
+      "buildings": [
+        { "id": "sagrada-familia", "name": "Sagrada Familia", "lat": 41.403629, "lng": 2.174356 },
+        { "id": "park-guell", "name": "Park Güell", "lat": 41.414495, "lng": 2.152695 },
+        { "id": "casa-batllo", "name": "Casa Batlló", "lat": 41.391635, "lng": 2.164851 },
+        { "id": "las-ramblas", "name": "Las Ramblas", "lat": 41.381611, "lng": 2.172776 },
+        { "id": "barceloneta", "name": "Barceloneta Beach", "lat": 41.377491, "lng": 2.190146 }
+      ]
+    }
+  ]
+}

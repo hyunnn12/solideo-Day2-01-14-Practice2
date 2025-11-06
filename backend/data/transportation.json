@@ -1,0 +1,69 @@
+{
+  "transportOptions": {
+    "bus": {
+      "color": "#FF6B6B",
+      "icon": "🚌",
+      "avgSpeed": 25,
+      "costPerKm": 0.15,
+      "carbonFootprint": 0.089
+    },
+    "train": {
+      "color": "#4ECDC4",
+      "icon": "🚆",
+      "avgSpeed": 80,
+      "costPerKm": 0.12,
+      "carbonFootprint": 0.041
+    },
+    "flight": {
+      "color": "#95E1D3",
+      "icon": "✈️",
+      "avgSpeed": 550,
+      "costPerKm": 0.25,
+      "carbonFootprint": 0.255
+    },
+    "car": {
+      "color": "#F38181",
+      "icon": "🚗",
+      "avgSpeed": 60,
+      "costPerKm": 0.45,
+      "carbonFootprint": 0.192
+    },
+    "bicycle": {
+      "color": "#A8E6CF",
+      "icon": "🚴",
+      "avgSpeed": 15,
+      "costPerKm": 0.0,
+      "carbonFootprint": 0.0
+    }
+  },
+  "routes": {
+    "short": {
+      "distance": "0-50km",
+      "recommended": ["bicycle", "bus", "car"],
+      "fastest": "car",
+      "cheapest": "bicycle",
+      "greenest": "bicycle"
+    },
+    "medium": {
+      "distance": "50-300km",
+      "recommended": ["train", "bus", "car"],
+      "fastest": "train",
+      "cheapest": "bus",
+      "greenest": "train"
+    },
+    "long": {
+      "distance": "300-1000km",
+      "recommended": ["flight", "train"],
+      "fastest": "flight",
+      "cheapest": "train",
+      "greenest": "train"
+    },
+    "intercontinental": {
+      "distance": "1000km+",
+      "recommended": ["flight"],
+      "fastest": "flight",
+      "cheapest": "flight",
+      "greenest": "flight"
+    }
+  }
+}
