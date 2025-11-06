@@ -1,0 +1,192 @@
+{
+  "moodProfiles": {
+    "relaxing": {
+      "description": "Take it slow and enjoy the moment",
+      "keywords": ["peaceful", "serene", "comfortable", "leisurely"],
+      "pace": "slow",
+      "preferences": {
+        "restaurants": ["Fine Dining", "Traditional Cafe"],
+        "cafes": ["Specialty Coffee", "Historic Cafe"],
+        "attractions": ["Museum", "Park", "Temple", "Cruise"]
+      },
+      "tips": [
+        "Schedule longer breaks between activities",
+        "Choose scenic routes over fastest routes",
+        "Book spa or wellness experiences",
+        "Visit during off-peak hours for tranquility"
+      ]
+    },
+    "adventurous": {
+      "description": "Explore the unexpected and embrace spontaneity",
+      "keywords": ["exciting", "bold", "thrilling", "spontaneous"],
+      "pace": "fast",
+      "preferences": {
+        "restaurants": ["Street Food", "Ethnic", "Fusion"],
+        "cafes": ["Themed Cafe", "Quirky"],
+        "attractions": ["Outdoor", "Entertainment", "Market", "Alternative"]
+      },
+      "tips": [
+        "Leave room for spontaneous discoveries",
+        "Try local street food and hidden gems",
+        "Use public transportation for authentic experience",
+        "Chat with locals for insider recommendations"
+      ]
+    },
+    "foodie": {
+      "description": "Culinary journey through local flavors",
+      "keywords": ["delicious", "authentic", "gourmet", "culinary"],
+      "pace": "medium",
+      "preferences": {
+        "restaurants": ["Michelin-starred", "Local specialty", "Street Food", "Tapas"],
+        "cafes": ["Artisan", "Traditional"],
+        "attractions": ["Food Market", "Cooking Class", "Food Tour"]
+      },
+      "tips": [
+        "Book popular restaurants in advance",
+        "Try dishes unique to the region",
+        "Visit local food markets in the morning",
+        "Schedule meal times strategically"
+      ]
+    },
+    "romantic": {
+      "description": "Create unforgettable moments together",
+      "keywords": ["intimate", "charming", "beautiful", "memorable"],
+      "pace": "slow",
+      "preferences": {
+        "restaurants": ["Fine Dining", "Rooftop", "Waterfront"],
+        "cafes": ["Cozy", "Garden"],
+        "attractions": ["Sunset spots", "Cruise", "Gardens", "Historic walks"]
+      },
+      "tips": [
+        "Plan activities during golden hour",
+        "Book window seats with views",
+        "Include evening entertainment",
+        "Choose pedestrian-friendly routes"
+      ]
+    },
+    "cultural": {
+      "description": "Immerse yourself in local heritage and arts",
+      "keywords": ["educational", "authentic", "historical", "artistic"],
+      "pace": "medium",
+      "preferences": {
+        "restaurants": ["Traditional", "Historic"],
+        "cafes": ["Historic Cafe", "Literary"],
+        "attractions": ["Museum", "Temple", "Historic Sites", "Theatre"]
+      },
+      "tips": [
+        "Get audio guides at museums",
+        "Join guided walking tours",
+        "Visit lesser-known cultural sites",
+        "Attend local performances or events"
+      ]
+    },
+    "social": {
+      "description": "Connect with people and vibrant atmospheres",
+      "keywords": ["lively", "trendy", "bustling", "Instagram-worthy"],
+      "pace": "fast",
+      "preferences": {
+        "restaurants": ["Trendy", "Tapas bar", "Rooftop"],
+        "cafes": ["Instagram Cafe", "Popular spots"],
+        "attractions": ["Markets", "Entertainment districts", "Popular landmarks"]
+      },
+      "tips": [
+        "Visit during peak hours for atmosphere",
+        "Share-style dining at tapas restaurants",
+        "Check social media for trending spots",
+        "Join group activities or pub crawls"
+      ]
+    }
+  },
+  "timeOfDayRecommendations": {
+    "morning": {
+      "activities": ["Visit markets", "Museum tours", "Breakfast cafes", "Morning walks"],
+      "energyLevel": "building",
+      "crowdLevel": "moderate"
+    },
+    "afternoon": {
+      "activities": ["Main attractions", "Lunch spots", "Shopping", "Outdoor activities"],
+      "energyLevel": "peak",
+      "crowdLevel": "high"
+    },
+    "evening": {
+      "activities": ["Dinner restaurants", "Sunset viewpoints", "Theatre/shows", "Night markets"],
+      "energyLevel": "sustained",
+      "crowdLevel": "moderate-high"
+    },
+    "night": {
+      "activities": ["Bars", "Night views", "Late-night eats", "Evening strolls"],
+      "energyLevel": "winding-down",
+      "crowdLevel": "moderate"
+    }
+  },
+  "durationRecommendations": {
+    "short": {
+      "hours": "1-4",
+      "focus": "Must-see highlights only",
+      "numberOfStops": "1-2",
+      "strategy": "Prioritize iconic landmarks and quick eats"
+    },
+    "half-day": {
+      "hours": "4-8",
+      "focus": "Key attractions + local experience",
+      "numberOfStops": "3-5",
+      "strategy": "Mix major sights with one unique local experience"
+    },
+    "full-day": {
+      "hours": "8-12",
+      "focus": "Comprehensive exploration",
+      "numberOfStops": "5-8",
+      "strategy": "Balance sightseeing, dining, and leisure time"
+    },
+    "multi-day": {
+      "hours": "12+",
+      "focus": "Deep cultural immersion",
+      "numberOfStops": "8+",
+      "strategy": "Explore neighborhoods, day trips, and hidden gems"
+    }
+  },
+  "weatherAdaptations": {
+    "sunny": {
+      "recommendations": ["Outdoor walks", "Parks", "Beach", "Open-air markets"],
+      "tips": ["Bring sunscreen", "Stay hydrated", "Plan shade breaks"]
+    },
+    "rainy": {
+      "recommendations": ["Museums", "Indoor markets", "Cafes", "Shopping malls"],
+      "tips": ["Bring umbrella", "Wear waterproof shoes", "Book indoor activities"]
+    },
+    "cold": {
+      "recommendations": ["Museums", "Heated cafes", "Indoor attractions", "Hot food tours"],
+      "tips": ["Dress in layers", "Seek warm beverages", "Use indoor transport"]
+    },
+    "hot": {
+      "recommendations": ["Air-conditioned venues", "Water activities", "Morning/evening outings"],
+      "tips": ["Avoid midday sun", "Stay near water", "Take frequent breaks"]
+    }
+  },
+  "aiPersonas": [
+    {
+      "type": "local-expert",
+      "greeting": "Hey there! I'm your local guide. I know all the hidden gems and insider secrets.",
+      "style": "casual",
+      "speciality": "off-the-beaten-path recommendations"
+    },
+    {
+      "type": "luxury-concierge",
+      "greeting": "Good day. I'm here to curate an exceptional experience for you.",
+      "style": "formal",
+      "speciality": "premium experiences and fine dining"
+    },
+    {
+      "type": "adventure-buddy",
+      "greeting": "What's up, adventurer! Ready to explore the wild side?",
+      "style": "enthusiastic",
+      "speciality": "outdoor activities and unique experiences"
+    },
+    {
+      "type": "culture-historian",
+      "greeting": "Greetings! Let me share the fascinating stories behind this destination.",
+      "style": "informative",
+      "speciality": "historical context and cultural insights"
+    }
+  ]
+}

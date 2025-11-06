@@ -1,0 +1,84 @@
+{
+  "places": {
+    "nyc": {
+      "restaurants": [
+        { "name": "Katz's Delicatessen", "type": "Deli", "rating": 4.5, "price": "$$", "mood": ["foodie", "adventurous"], "lat": 40.722216, "lng": -73.987501, "description": "Iconic Jewish deli famous for pastrami sandwiches" },
+        { "name": "Le Bernardin", "type": "Fine Dining", "rating": 4.8, "price": "$$$$", "mood": ["relaxing", "romantic"], "lat": 40.761901, "lng": -73.982137, "description": "Michelin-starred seafood restaurant" },
+        { "name": "Momofuku Noodle Bar", "type": "Asian Fusion", "rating": 4.3, "price": "$$$", "mood": ["foodie", "adventurous"], "lat": 40.729707, "lng": -73.984459, "description": "Trendy ramen and innovative Asian dishes" }
+      ],
+      "cafes": [
+        { "name": "Blue Bottle Coffee", "type": "Specialty Coffee", "rating": 4.4, "price": "$$", "mood": ["relaxing", "work"], "lat": 40.752726, "lng": -73.977229, "description": "Artisanal coffee in a minimalist setting" },
+        { "name": "Cafe Gitane", "type": "French Cafe", "rating": 4.2, "price": "$$", "mood": ["relaxing", "romantic"], "lat": 40.722788, "lng": -73.996560, "description": "Charming Moroccan-French cafe" }
+      ],
+      "attractions": [
+        { "name": "Metropolitan Museum of Art", "type": "Museum", "rating": 4.7, "price": "$$$", "mood": ["cultural", "relaxing"], "lat": 40.779437, "lng": -73.963244, "description": "World-renowned art museum" },
+        { "name": "Brooklyn Bridge Walk", "type": "Outdoor", "rating": 4.6, "price": "Free", "mood": ["adventurous", "romantic"], "lat": 40.706086, "lng": -73.996864, "description": "Iconic bridge with stunning city views" },
+        { "name": "Broadway Show", "type": "Entertainment", "rating": 4.8, "price": "$$$$", "mood": ["cultural", "adventurous"], "lat": 40.758896, "lng": -73.985130, "description": "World-class theater performances" }
+      ]
+    },
+    "tokyo": {
+      "restaurants": [
+        { "name": "Sukiyabashi Jiro", "type": "Sushi", "rating": 4.9, "price": "$$$$", "mood": ["foodie", "cultural"], "lat": 35.667094, "lng": 139.763079, "description": "Legendary sushi master's restaurant" },
+        { "name": "Ichiran Ramen", "type": "Ramen", "rating": 4.4, "price": "$$", "mood": ["foodie", "solo"], "lat": 35.661777, "lng": 139.704051, "description": "Private booth ramen experience" },
+        { "name": "Narisawa", "type": "Modern Japanese", "rating": 4.7, "price": "$$$$", "mood": ["relaxing", "romantic"], "lat": 35.666298, "lng": 139.729512, "description": "Innovative Japanese cuisine" }
+      ],
+      "cafes": [
+        { "name": "% Arabica", "type": "Specialty Coffee", "rating": 4.5, "price": "$$", "mood": ["relaxing", "hip"], "lat": 35.658584, "lng": 139.745433, "description": "Minimalist coffee shop with city views" },
+        { "name": "Kawaii Monster Cafe", "type": "Themed Cafe", "rating": 4.1, "price": "$$$", "mood": ["adventurous", "quirky"], "lat": 35.669220, "lng": 139.702687, "description": "Colorful, pop-art themed cafe experience" }
+      ],
+      "attractions": [
+        { "name": "Meiji Shrine", "type": "Temple", "rating": 4.6, "price": "Free", "mood": ["cultural", "relaxing"], "lat": 35.676192, "lng": 139.699274, "description": "Peaceful Shinto shrine in forest" },
+        { "name": "TeamLab Borderless", "type": "Digital Art", "rating": 4.8, "price": "$$$", "mood": ["adventurous", "artistic"], "lat": 35.628419, "lng": 139.795665, "description": "Immersive digital art museum" },
+        { "name": "Robot Restaurant", "type": "Entertainment", "rating": 4.0, "price": "$$$", "mood": ["adventurous", "quirky"], "lat": 35.694562, "lng": 139.702687, "description": "Wild robot and neon light show" }
+      ]
+    },
+    "paris": {
+      "restaurants": [
+        { "name": "Le Jules Verne", "type": "Fine Dining", "rating": 4.6, "price": "$$$$", "mood": ["romantic", "luxurious"], "lat": 48.858370, "lng": 2.294481, "description": "Michelin-starred restaurant in Eiffel Tower" },
+        { "name": "L'As du Fallafel", "type": "Street Food", "rating": 4.4, "price": "$", "mood": ["foodie", "casual"], "lat": 48.857140, "lng": 2.359450, "description": "Best falafel in the Marais district" },
+        { "name": "Septime", "type": "Modern French", "rating": 4.7, "price": "$$$", "mood": ["foodie", "trendy"], "lat": 48.852419, "lng": 2.381717, "description": "Contemporary bistro with seasonal menu" }
+      ],
+      "cafes": [
+        { "name": "Café de Flore", "type": "Historic Cafe", "rating": 4.3, "price": "$$$", "mood": ["cultural", "classic"], "lat": 48.854244, "lng": 2.332642, "description": "Famous literary cafe since 1887" },
+        { "name": "Ten Belles", "type": "Specialty Coffee", "rating": 4.5, "price": "$$", "mood": ["relaxing", "hip"], "lat": 48.871622, "lng": 2.363503, "description": "Canal-side artisan coffee shop" }
+      ],
+      "attractions": [
+        { "name": "Musée d'Orsay", "type": "Museum", "rating": 4.7, "price": "$$$", "mood": ["cultural", "artistic"], "lat": 48.859966, "lng": 2.326553, "description": "Impressionist art masterpieces" },
+        { "name": "Seine River Cruise", "type": "Tour", "rating": 4.5, "price": "$$", "mood": ["romantic", "relaxing"], "lat": 48.858370, "lng": 2.294481, "description": "Scenic boat tour along the Seine" },
+        { "name": "Montmartre Walking Tour", "type": "Outdoor", "rating": 4.6, "price": "$", "mood": ["adventurous", "artistic"], "lat": 48.886705, "lng": 2.343046, "description": "Historic hilltop neighborhood exploration" }
+      ]
+    },
+    "london": {
+      "restaurants": [
+        { "name": "Dishoom", "type": "Indian", "rating": 4.6, "price": "$$", "mood": ["foodie", "trendy"], "lat": 51.523493, "lng": -0.105087, "description": "Bombay-style cafe with vintage decor" },
+        { "name": "Sketch", "type": "Fine Dining", "rating": 4.4, "price": "$$$$", "mood": ["luxurious", "artistic"], "lat": 51.514259, "lng": -0.141568, "description": "Quirky Michelin-starred restaurant with pink decor" },
+        { "name": "Borough Market Food Stalls", "type": "Market", "rating": 4.5, "price": "$$", "mood": ["foodie", "casual"], "lat": 51.505455, "lng": -0.091166, "description": "Historic food market with global cuisine" }
+      ],
+      "cafes": [
+        { "name": "Attendant", "type": "Specialty Coffee", "rating": 4.4, "price": "$$", "mood": ["quirky", "hip"], "lat": 51.522870, "lng": -0.136537, "description": "Cafe in a converted Victorian toilet" },
+        { "name": "EL&N Cafe", "type": "Instagram Cafe", "rating": 4.2, "price": "$$", "mood": ["trendy", "social"], "lat": 51.515419, "lng": -0.142204, "description": "Pink floral aesthetic cafe" }
+      ],
+      "attractions": [
+        { "name": "Tate Modern", "type": "Museum", "rating": 4.6, "price": "Free", "mood": ["artistic", "cultural"], "lat": 51.507778, "lng": -0.099306, "description": "Contemporary art in a former power station" },
+        { "name": "Camden Market", "type": "Market", "rating": 4.3, "price": "$", "mood": ["adventurous", "alternative"], "lat": 51.541557, "lng": -0.146444, "description": "Eclectic market with food, fashion, and crafts" },
+        { "name": "West End Theatre", "type": "Entertainment", "rating": 4.7, "price": "$$$", "mood": ["cultural", "classic"], "lat": 51.512793, "lng": -0.131313, "description": "World-famous theater district" }
+      ]
+    },
+    "barcelona": {
+      "restaurants": [
+        { "name": "Tickets", "type": "Tapas", "rating": 4.7, "price": "$$$", "mood": ["foodie", "adventurous"], "lat": 41.374890, "lng": 2.148919, "description": "Avant-garde tapas by Ferran Adrià" },
+        { "name": "Cervecería Catalana", "type": "Tapas", "rating": 4.5, "price": "$$", "mood": ["casual", "social"], "lat": 41.391635, "lng": 2.164851, "description": "Popular local tapas bar" },
+        { "name": "El Xampanyet", "type": "Traditional", "rating": 4.4, "price": "$", "mood": ["authentic", "casual"], "lat": 41.385692, "lng": 2.182993, "description": "Old-school tapas and cava bar" }
+      ],
+      "cafes": [
+        { "name": "Satan's Coffee Corner", "type": "Specialty Coffee", "rating": 4.6, "price": "$$", "mood": ["hip", "edgy"], "lat": 41.387279, "lng": 2.176361, "description": "Tattooed baristas serving excellent coffee" },
+        { "name": "Granja M. Viader", "type": "Traditional Cafe", "rating": 4.3, "price": "$", "mood": ["classic", "nostalgic"], "lat": 41.382347, "lng": 2.171123, "description": "Historic cafe serving Catalan chocolate" }
+      ],
+      "attractions": [
+        { "name": "Gothic Quarter Walk", "type": "Historic", "rating": 4.6, "price": "Free", "mood": ["cultural", "romantic"], "lat": 41.383333, "lng": 2.176944, "description": "Medieval streets and architecture" },
+        { "name": "Magic Fountain Show", "type": "Spectacle", "rating": 4.5, "price": "Free", "mood": ["romantic", "family"], "lat": 41.371823, "lng": 2.151806, "description": "Light, water, and music show" },
+        { "name": "Boqueria Market", "type": "Market", "rating": 4.4, "price": "$", "mood": ["foodie", "cultural"], "lat": 41.381611, "lng": 2.172776, "description": "Vibrant food market on Las Ramblas" }
+      ]
+    }
+  }
+}
